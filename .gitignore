@@ -1,0 +1,25 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+
+# Python and virtual environments
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Local job-search data and generated application materials
+sessions/
+master_profile.json
+job_queue.json
+session_state.json
+tailored_resumes/
+
+# Tool/editor state
+.pytest_cache/
+.ruff_cache/
+.idea/
+.vscode/
